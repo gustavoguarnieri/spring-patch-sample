@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringCachingKotlinSampleApplication(
+class Application(
     private val repository: ProductRepository
 ) : CommandLineRunner {
 
@@ -18,5 +18,5 @@ class SpringCachingKotlinSampleApplication(
 }
 
 fun main(args: Array<String>) {
-    runApplication<SpringCachingKotlinSampleApplication>(*args)
+    runApplication<Application>(*args)
 }
