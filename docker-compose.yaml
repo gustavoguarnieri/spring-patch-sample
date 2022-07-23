@@ -6,7 +6,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: masterkey
-      DB_NAME: patch-sample
+      DB_NAME: patch
       DB_USER: user
       DB_PASSWORD: masterkey
     ports:
